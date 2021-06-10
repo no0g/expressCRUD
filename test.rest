@@ -1,0 +1,30 @@
+POST http://localhost:5000/student/new HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "name":"reza nugroho' -- lol",
+    "tpnumber":"234523"
+}
+
+###
+
+GET http://localhost:5000/student/show/38 HTTP/1.1
+
+###
+
+
+PUT http://localhost:5000/student/edit/38 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"reza nugroho",
+    "tpnumber":"0792837"
+}
+###
+
+DELETE http://localhost:5000/student/delete/1 HTTP/1.1
+
+
+### 
+GET http://localhost:5000/student/ HTTP/1.1
